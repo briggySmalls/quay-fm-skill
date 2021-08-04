@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "alderney's quay fm",
+      "invocationName": "briggs custom skill",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
