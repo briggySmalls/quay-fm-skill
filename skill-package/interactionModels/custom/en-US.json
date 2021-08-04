@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "change me",
+      "invocationName": "audio player sample",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -16,25 +16,34 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
+          "name": "PlayAudioIntent",
           "slots": [],
           "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
+            "start Alderney's quay fm",
+            "play Alderney's quay fm",
+            "start quay fm",
+            "play quay fm"
           ]
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
           "samples": []
         }
       ],
       "types": []
     }
   },
-  "version": "1"
+  "version": "3"
 }
