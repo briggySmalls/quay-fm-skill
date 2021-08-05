@@ -36,6 +36,11 @@
           "name": "Quay FM",
           "description": "Alderney's Quay FM 107.1",
           "summary": "Alderney's beloved Quay FM brought straight to your Alexa.\n\nTo start, just say \"Alexa, launch Quay FM\" or \"Alexa, play Quay FM\" to start the radio\"."
+        },
+        "en-GB": {
+          "name": "Quay FM",
+          "description": "Alderney's Quay FM 107.1",
+          "summary": "Alderney's beloved Quay FM brought straight to your Alexa.\n\nTo start, just say \"Alexa, launch Quay FM\" or \"Alexa, play Quay FM\" to start the radio\"."
         }
       }
     }
