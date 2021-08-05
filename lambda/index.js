@@ -97,7 +97,7 @@ const UnsupportedAudioIntentHandler = {
             );
     },
     async handle(handlerInput) {
-        const speakOutput = 'Sorry, I can\'t support that yet.';
+        const speakOutput = 'Sorry, that doesn\'t make sense when streaming Quay FM radio.';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
