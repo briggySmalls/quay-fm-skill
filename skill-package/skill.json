@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:291384927216:function:f7ba2419-8308-46fe-845b-0747edca873e:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:291384927216:function:f7ba2419-8308-46fe-845b-0747edca873e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:291384927216:function:f7ba2419-8308-46fe-845b-0747edca873e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:291384927216:function:f7ba2419-8308-46fe-845b-0747edca873e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "locales": {
+        "en-US": {
+          "name": "Quay FM",
+          "description": "Alderney's Quay FM 107.1",
+          "summary": "Alderney's beloved Quay FM brought straight to your Alexa.\n\nTo start, just say \"Alexa, launch Quay FM\" or \"Alexa, play Quay FM\" to start the radio\"."
+        },
+        "en-GB": {
+          "name": "Quay FM",
+          "description": "Alderney's Quay FM 107.1",
+          "summary": "Alderney's beloved Quay FM brought straight to your Alexa.\n\nTo start, just say \"Alexa, launch Quay FM\" or \"Alexa, play Quay FM\" to start the radio\"."
+        }
+      }
+    }
+  }
+}
