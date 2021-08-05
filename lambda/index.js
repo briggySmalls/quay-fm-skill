@@ -111,7 +111,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'You can say "play audio" to start playing music! How can I help?';
+        const speakOutput = 'You can say "play" to start playing Quay FM radio! How can I help?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
