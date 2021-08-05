@@ -16,7 +16,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome, you can say "play audio" to start listening to music. What would you like to do?';
+        const speakOutput = 'Welcome, you can say "play" to start streaming Quay FM radio. What would you like to do?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -37,7 +37,7 @@ const PlayAudioIntentHandler = {
     async handle(handlerInput) {
         const playbackInfo = await getPlaybackInfo(handlerInput);
 
-        const speakOutput = 'Playing the audio stream.';
+        const speakOutput = 'Playing Quay FM.';
         const playBehavior = 'REPLACE_ALL';
 
         /**
@@ -111,7 +111,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'You can say "play audio" to start playing music! How can I help?';
+        const speakOutput = 'You can say "play" to start playing Quay FM radio! How can I help?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
